@@ -1,0 +1,12 @@
+/__pycache__/*
+*/.idea/*
+/.pytest_cache/*
+/.vscode/*
+*/__pycache__/*
+*.bak
+*.pyc
+*.xlsx
+*/venv/
+
+# removing the sqlite db
+*/db.sqlite3

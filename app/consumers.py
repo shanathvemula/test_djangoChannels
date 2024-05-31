@@ -24,8 +24,8 @@ class PostConsumer(GenericAsyncAPIConsumer):
 
     @model_changed.serializer
     def model_serialize(self, instance, action, **kwargs):
-        # return dict({'data': PostSerializer(instance=instance).data, 'action': action.value})
-        return dict({'data': get_posts(), 'action': action.value})
+        return dict({'data': PostSerializer(instance=instance).data, 'action': action.value})
+        # return dict({'data': get_posts(), 'action': action.value})
 
     async def connect(self, **kwargs):
         await self.model_changed.subscribe()
