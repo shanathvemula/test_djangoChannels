@@ -204,16 +204,16 @@ curl --location --request DELETE 'http://127.0.0.1:8000/post' \
 
 ## Websocket
 
-![img.png](static/README/connected to scoket.png)
+![img.png](static/README/connected_to_scoket.png)
 
 * Once new post is created
 
-![img.png](static/README/post is created.png)
+![img.png](static/README/post_is_created.png)
 
 * Once post is Updated
 
-![img.png](static/README/post is updated.png)
+![img.png](static/README/post_is_updated.png)
 
 * Once post is Deleted
 
-![img.png](static/README/post is deleted.png)
+![img.png](static/README/post_is_deleted.png)
